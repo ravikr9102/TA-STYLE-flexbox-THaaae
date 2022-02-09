@@ -11,3 +11,72 @@
 
 7. Use flexbox properties and values to create columns.
  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | Blog and Gallery</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/e760bb982e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+      <div class="container">
+      <a class="brand" href="#">
+          <img src="assets/media/1_G0vNhGnL4kWlZm2CTmLLtg.png" alt="brand logo">
+      </a>
+      <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Gallery</a>
+      </nav>
+    </div>
+  </header> 
+  <main>
+      <article class="article">
+          <div class="container flex">
+              <div class="col">
+                  <h1 class="article-heading">Lorem ipsum</h1>
+                  <p class="article-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis reprehenderit nulla minima repellendus placeat quis pariatur magnam, odit aspernatur iste, eos atque fugiat labore accusantium assumenda molestiae numquam, perferendis nam.</p>
+              </div>
+              <div class="col">
+                  <img class="article-img" src="assets/media/blog-8.jpg" alt="blog image">
+              </div>
+          </div>
+      </article>
+      <!-- Gallery -->
+      <section class="gallery">
+          <div class="container flex">
+              <div class="col-1-3">
+                  <img src="assets/media/10-Minute-Weekly-Blogging-Plan-tasqn3-prizg4-1080x720.jpeg" alt="pic01">
+              </div>
+              <div class="col-1-3">
+                <img src="assets/media/free-images-for-blogs.jpeg" alt="pic02">
+            </div>
+            <div class="col-1-3">
+                <img src="assets/media/blogimagetools.jpg" alt="pic03">
+            </div>
+            <div class="col-1-3">
+                <img src="assets/media/writing-blog.jpg" alt="pic04">
+            </div>
+            <div class="col-1-3">
+                <img src="assets/media/laptop-2838921__480.jpg" alt="pic05">
+            </div>
+            <div class="col-1-3">
+                <img src="assets/media/how-to-write-a-blog-post-research.jpg" alt="pic06">
+            </div>
+          </div>
+      </section>
+  </main> 
+  <footer class="footer">
+      <div class="container">
+          <nav>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+          </nav>
+      </div>
+  </footer>
+</body>
+</html>

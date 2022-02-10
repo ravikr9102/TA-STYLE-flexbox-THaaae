@@ -99,14 +99,14 @@ i{
     padding: 50px 0;
     background-color: aliceblue;
 }
-.gallery .flex{
-    flex-wrap: wrap;
-}
 .heading{
     font-size: 36px;
     text-align: center;
     padding: 60px 0;
     color: rgb(156, 95, 14);
+}
+.gallery .flex{
+    flex-wrap: wrap;
 }
 .col-1-3{
     width: 30%;
